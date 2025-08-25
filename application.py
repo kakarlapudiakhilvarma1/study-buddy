@@ -19,7 +19,7 @@ def main():
     if 'quiz_submitted' not in st.session_state:
         st.session_state.quiz_submitted = False
 
-    st.title("Studdy Buddy AI Latest")
+    st.title("Studdy Buddy AI")
 
     st.sidebar.header("Quiz Settings")
 
