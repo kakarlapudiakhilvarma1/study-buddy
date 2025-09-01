@@ -3,7 +3,7 @@ pipeline {
     environment {
         DOCKER_HUB_REPO = "kakarlapudiakhilvarma/studybuddy"
         DOCKER_HUB_CREDENTIALS_ID = "dockerhub-token"
-        IMAGE_TAG = "v2"
+        IMAGE_TAG = "v3"
         // IMAGE_TAG = "v${BUILD_NUMBER}"
     }
     stages {
